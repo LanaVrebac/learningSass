@@ -1,3 +1,15 @@
+
+$default-text-color:$black;
+$default-bg:$light-grey;
+
+
+$default-font:$rubik;
+$headings-font:$josefin;
+
+
+$default-weight:$font-regular;
+$headings-weight:$font-bold;
+$heading-color:$purple;
 img{
     max-width: 100%;
 }
@@ -11,6 +23,18 @@ a{
 }
 html{
     font-size: 10px;
+}
+body{
+    font-size: 1.6rem;
+    font-family: $default-font;
+    color:$default-text-color;
+    background-color: $default-bg;
+    font-weight: $default-weight;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: $headings-font;
+    font-weight: $headings-weight;
+    color:$heading-color;
 }
 
 .container{

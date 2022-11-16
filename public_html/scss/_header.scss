@@ -1,3 +1,10 @@
+
+$header-bg:$purple;
+$header-link-color:$white;
 header{
     padding:20px 0;
+    background-color: $header-bg;
+}
+header a{
+    color: $header-link-color;
 }
