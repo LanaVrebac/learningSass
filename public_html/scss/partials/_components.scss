@@ -21,31 +21,49 @@ $btn-dark:$black;
 }
 .btn-default{
     @extend %btn;
-    background-color: $btn-default;
+    background-color:rgba($btn-default, 0.2) ;
     color:$btn-default-color;
+    &:hover{
+        background-color: darken($btn-default, 10%);
+    }
 }
 .btn-danger{
     @extend %btn;
     background-color: $btn-danger;
     color:$btn-default-color;
+    &:hover{
+        background-color: darken($btn-danger, 10%);
+    }
 }
 .btn-warning{
     @extend %btn;
     background-color: $btn-default-color;
     color:$btn-danger;
+    &:hover{
+        background-color: darken($btn-warning, 10%);
+    } 
 }
 .btn-success{
     @extend %btn;
     background-color: $btn-success;
     color:$btn-default-color;
+   &:hover{
+        background-color: darken($btn-success, 10%);
+    }  
 }
 .btn-info{
     @extend %btn;
     background-color: $btn-info;
     color:$btn-dark;
+    &:hover{
+        background-color: darken($btn-info, 10%);
+    }
 }
 .btn-dark{
     @extend %btn;
     background-color: $btn-dark;
     color:$btn-default-color;
+    &:hover{
+        background-color: lighten($btn-dark, 10%);
+    }
 }

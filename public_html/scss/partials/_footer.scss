@@ -29,7 +29,7 @@ nav{
               font-family:$footer-nav-font;
               font-weight: $font-bold;
               &:hover , &.active{
-                  color:$footer-link-hover;
+                  color:lighten(complement($footer-bg), 15%);
               }
               
                 
