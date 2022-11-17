@@ -440,6 +440,10 @@ header nav ul li a:hover, header nav ul li a.active {
   background: #fff;
 }
 
+.service-section {
+  padding: 30px 0;
+}
+
 .comment-section {
   padding: 30px 0;
   background: #fff;
@@ -494,6 +498,47 @@ footer nav ul li a:hover, footer nav ul li a.active {
   footer nav ul li a {
     padding: 5px 20px;
   }
+}
+
+.btn-default, .btn-danger, .btn-warning, .btn-success, .btn-info, .btn-dark {
+  display: inline-block;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-default {
+  background-color: #444444;
+  color: #fff;
+}
+
+.btn-danger {
+  background-color: #ed0f07;
+  color: #fff;
+}
+
+.btn-warning {
+  background-color: #fff;
+  color: #ed0f07;
+}
+
+.btn-success {
+  background-color: #07ed5f;
+  color: #fff;
+}
+
+.btn-info {
+  background-color: #07edde;
+  color: #000;
+}
+
+.btn-dark {
+  background-color: #000;
+  color: #fff;
 }
 
 /*# sourceMappingURL=theme.css.map */
