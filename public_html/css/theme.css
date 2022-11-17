@@ -449,6 +449,51 @@ header nav ul li a:hover, header nav ul li a.active {
   background: #fff;
 }
 
+.course-section {
+  padding: 50px 0px;
+}
+
+.course-section table {
+  width: 100%;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.course-section table th, .course-section table td {
+  border: 1px solid #000;
+  padding: 10px 5px;
+}
+
+.course-section table caption {
+  text-align: left;
+  font-style: italic;
+}
+
+.course-section table thead {
+  background-color: #a3609d;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px 5;
+}
+
+.course-section table thead th {
+  border: 2px solid #fff;
+}
+
+.course-section table tbody tr {
+  background-color: #eeeeee;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.course-section table tbody tr:nth-of-type(even) {
+  background-color: #fff;
+}
+
+.course-section table tbody tr:hover {
+  background-color: #c8c8c8;
+}
+
 /*
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template

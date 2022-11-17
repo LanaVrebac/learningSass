@@ -1,0 +1,56 @@
+
+$thead-bg:$purple;
+$thead-color:$white;
+$tr-bg:$light-grey;
+
+$tr-color:$black;
+
+$tbody-hover:darken($light-grey, 15%);
+.course-section{
+    
+    padding:50px 0px;
+    table{
+        width: 100%;
+        border:1px solid $black;
+        border-collapse: collapse;
+        th, td{
+            border:1px solid $black;
+            padding: 10px 5px;
+        }
+        caption{
+            text-align: left;
+           font-style:italic;
+        }
+        thead{
+            background-color: $thead-bg;
+            color:$thead-color;
+            border:2px solid $white;
+            padding: 10px 5;
+            th{
+             border:2px solid $white;   
+            }
+            
+        }
+        tbody{
+            tr{
+                background-color: $tr-bg;
+                color:$tr-color;
+                border: 1px solid $black;
+                &:nth-of-type(even){
+                        background-color: $white;
+                    }
+                &:hover{
+                    background-color: $tbody-hover;
+                    
+                }
+                
+                
+                }
+            
+            
+          
+            
+        }//tbody end
+        
+    }
+}
