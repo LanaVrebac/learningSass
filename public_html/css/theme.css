@@ -456,10 +456,44 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit thi
 footer {
   padding: 30px 0;
   background-color: #a3609d;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
 }
 
-footer p {
+footer .copyright {
   color: #fff;
+  text-align: center;
+}
+
+footer nav ul {
+  margin-bottom: 30px;
+  text-align: center;
+  list-style: none;
+  padding-left: 0;
+}
+
+footer nav ul li a {
+  color: #fff;
+  display: block;
+  padding: 5px 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+}
+
+footer nav ul li a:hover, footer nav ul li a.active {
+  color: #07ed5f;
+}
+
+@media (min-width: 768px) {
+  footer nav ul {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  footer nav ul li a {
+    padding: 5px 20px;
+  }
 }
 
 /*# sourceMappingURL=theme.css.map */
