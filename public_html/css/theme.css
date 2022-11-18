@@ -381,7 +381,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-  padding: 20px 0;
+  padding: 30px 0 30px;
   background-color: #a3609d;
 }
 
@@ -435,22 +435,36 @@ header nav ul li a:hover, header nav ul li a.active {
 /*header a{
     color: $header-link-color;
 }*/
+.home-section {
+  padding: 150px 0 150px;
+  background-color: #fff;
+}
+
 .about-section {
-  padding: 30px 0;
-  background: #fff;
+  padding: 30px 0 30px;
+  background-color: #fff;
 }
 
 .service-section {
-  padding: 30px 0;
+  padding: 30px 0 30px;
+  background-color: transparent;
 }
 
 .comment-section {
-  padding: 30px 0;
-  background: #fff;
+  padding: 30px 0 30px;
+  background-color: #fff;
+}
+
+.comment-img img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 .course-section {
-  padding: 50px 0px;
+  padding: 30px 0 30px;
+  background-color: transparent;
 }
 
 .course-section table {
@@ -494,16 +508,13 @@ header nav ul li a:hover, header nav ul li a.active {
   background-color: #c8c8c8;
 }
 
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : 16.11.2022., 10.13.43
-    Author     : Vrebac
-*/
+.contact-section {
+  padding: 150px 0 150px;
+  background-color: #fff;
+}
+
 footer {
-  padding: 30px 0;
+  padding: 30px 0 30px;
   background-color: #a3609d;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
@@ -549,10 +560,10 @@ footer nav ul li a:hover, footer nav ul li a.active {
   display: inline-block;
   border: none;
   padding: 10px 25px;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -o-border-radius: 5px;
+  border-radius: 5px 50% 5px 50%;
+  -webkit-border-radius: 5px 50% 5px 50%;
+  -moz-border-radius: 5px 50% 5px 50%;
+  -o-border-radius: 5px 50% 5px 50%;
   cursor: pointer;
 }
 

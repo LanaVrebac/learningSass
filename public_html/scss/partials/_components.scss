@@ -11,10 +11,10 @@ $btn-dark:$black;
     display:inline-block;
     border:none;
     padding:10px 25px;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -o-border-radius:5px;
+    
+    //@include radius(5px);
+    @include customRadius(5px,50%, 5px, 50%);
+    
     cursor: pointer;
     
     

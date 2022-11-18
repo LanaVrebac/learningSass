@@ -7,8 +7,9 @@ $tr-color:$black;
 
 $tbody-hover:darken($light-grey, 15%);
 .course-section{
+    @include styleSection(30px, 30px, transparent);
     
-    padding:50px 0px;
+    
     table{
         width: 100%;
         border:1px solid $black;
