@@ -568,8 +568,8 @@ footer nav ul li a:hover, footer nav ul li a.active {
 }
 
 .btn-default {
-  background-color: rgba(68, 68, 68, 0.2);
-  color: #fff;
+  background-color: rgba(68, 68, 68, 0.8);
+  color: #000;
 }
 
 .btn-default:hover {
@@ -578,7 +578,7 @@ footer nav ul li a:hover, footer nav ul li a.active {
 
 .btn-danger {
   background-color: #ed0f07;
-  color: #fff;
+  color: #000;
 }
 
 .btn-danger:hover {
@@ -587,7 +587,7 @@ footer nav ul li a:hover, footer nav ul li a.active {
 
 .btn-warning {
   background-color: #fff;
-  color: #ed0f07;
+  color: #000;
 }
 
 .btn-warning:hover {
@@ -596,7 +596,7 @@ footer nav ul li a:hover, footer nav ul li a.active {
 
 .btn-success {
   background-color: #07ed5f;
-  color: #fff;
+  color: #000;
 }
 
 .btn-success:hover {
